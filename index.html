@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Магистрская работа Щур В.В.</title>
+    <style>
+        body {
+            background-color: #fafafa;
+            font-family: arial;
+        }
+        .photo {
+            float: left;
+            object-fit: cover;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-right: 12px;
+            margin-bottom: 12px;
+        }
+        .info::after {
+            content: '';
+            display: table;
+            clear: both;
+        }
+        .list-label {
+            font-weight: bold;
+        }
+        main {
+            background-color: white;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, .16),
+                        0 3px 6px rgba(0, 0, 0, .23);
+            margin: 16px;
+            padding: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Страница о магистрской работе Иванова И. И.</h1>
+        <section class="info">
+            <h2>Автобиография</h2>
+            <img src="MD./avatar.png" alt="Фотография Иванова И. И." class="photo">
+            <p>
+                Родилась в г.Минске 09.07.1994. С 2001 по 2012 училась в 
+				СШ №184 г.Минска. В 2010-2012 принимала участие в олимпиаде
+				среди школьников по химии. В 2012 поступила на биологический 
+				факультет БГУ, который закончила с отличием в 2017 году по 
+				специальности "биохимия". На сегодняшний день - студент 
+				магистратуры биологического факультета БГУ по специальности
+				"биология". Тема дипломной работы: Оптимизация методов пробоподготовки 
+				для панорамного протеомного анализа. 
+            </p>
+        </section>
+        <section>
+            <label class="list-label" for="workLinks">Ссылки на </label>
+            <ul id="workLinks">
+                <li>
+                    <a href="#https://github.com/ShchVV/MD/raw/master/[path_to_file]/[filename_with_extension]">Реферат</a>
+                </li>
+                <li>
+                    <a href="https://github.com/ShchVV/MD/raw/master/masters-work.doc">Выпускная работа</a>
+                </li>
+                <li>
+                    Научный руководитель <a href="#вставте_сюда_ссылку_на_страницу_научного_руководителя_на_сайте_bsu.by" target="_blank">ФИО научного руководителя</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
